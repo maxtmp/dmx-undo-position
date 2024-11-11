@@ -1,0 +1,11 @@
+{
+  "name": "dmx-undo-position",
+  "version": "0.7.2",
+  "description": "A plugin to undo topic position changes (drag&drop) in DMX",
+  "author": "Max Puig",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "build": "../../node_modules/.bin/webpack -p --hide-modules",
+    "stats": "../../node_modules/.bin/webpack -p --json > stats.json && ../../node_modules/.bin/webpack-bundle-analyzer stats.json src/main/resources/web"
+  }
+}
